@@ -4,7 +4,8 @@ project(Delaunay)
 set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCE_FILES opengl/glad/src/glad.c main.cpp)
-set(HEADER_FILES shader/shader.h)
+set(HEADER_FILES shader/shader.h
+        delaunay/delaunay.h)
 
 include_directories(include)
 
