@@ -1,11 +1,10 @@
 cmake_minimum_required(VERSION 3.26)
 project(Delaunay)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 set(SOURCE_FILES opengl/glad/src/glad.c main.cpp)
-set(HEADER_FILES shader/shader.h
-        delaunay/delaunay.h)
+set(HEADER_FILES shader/shader.h delaunay/delaunay.h)
 
 include_directories(include)
 
